@@ -788,6 +788,10 @@ letter-spacing: 0.04em;
 
 
 }
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+    background-color: #404bbf;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
