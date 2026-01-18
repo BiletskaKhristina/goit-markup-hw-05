@@ -414,7 +414,7 @@
                     </svg>
                 </button>
                 <p class="modal-title">Leave your contacts and we will call you back</p>
-                <form class="modal-form">
+                <form class="modal-form" action="#">
                     <div class="modal-field">
                         <label class="modal-label" for="user-name">Name</label>
                         <div class="modal-input-wrapper">
@@ -423,6 +423,8 @@
                                 <use href="./images/icons.svg#icon-Vector"></use>
                             </svg>
                         </div>
+                    </div>
+                    <div class="modal-field">
                         <label class="modal-label" for="user-phone">Phone</label>
                         <div class="modal-input-wrapper">
                             <input type="tel" name="user-phone" id="user-phone" class="modal-input" placeholder="+38 (___) ___-____">
@@ -430,19 +432,22 @@
                                 <use href="./images/icons.svg#icon-Vector-1"></use>
                             </svg>
                         </div>
+                    </div>
+                    <div  class="modal-field">
                         <label class="modal-label" for="user-email">Email</label>
                         <div class="modal-input-wrapper">
-                            <input type="email" name="user-email" id="user-email" class="modal-input" placeholder="exampl@mail.com">
+                            <input type="email" name="user-email" id="user-email" class="modal-input" placeholder="example@mail.com">
                             <svg class="modal-icon" width="15" height="12">
                                 <use href="./images/icons.svg#icon-Vector-2"></use>
                             </svg>
                         </div>
-                        <div class="form-field">
-                          <label class="form-label" for="user-comment">Comment</label>
-                            <textarea name="comment" id="user-comment" class="form-textarea" placeholder="Text input"></textarea>
                     </div>
-                    <label class="checkbox-label">
-                        <input type="checkbox" class="checkbox-input" />
+                        <div class="modal-field">
+                          <label class="modal-label" for="user-comment">Comment</label>
+                            <textarea name="comment" id="user-comment" class="modal-textarea" placeholder="Text input"></textarea>
+                    </div>
+                    <label class="checkbox-label" for="user-policy">
+                        <input type="checkbox" name="policy" id="user-policy" class="checkbox-input" />
                         <span class="checkbox-custom">
                             <svg class="checkbox-icon" width="16" height="16">
                                 <use href="./images/icons.svg#icon-Checkbox"></use>
