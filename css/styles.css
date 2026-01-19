@@ -797,15 +797,30 @@ letter-spacing: 0.02em;
 text-align: center;
 color: var(--navy-blue);
 margin-bottom: 16px;
+margin-top: 24px;
 }
 .modal-textarea {
     resize: none;
+
+}
+.modal-label {
+    display: block;
+    margin-bottom: 4px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: 0.04em;
+color: var(--light-slate);
 
 }
 .modal-input:focus,
 .modal-textarea:focus {
     border-color: #4d5ae5;
 
+}
+.modal-field {
+    margin-bottom: 8px;
 }
 .modal-input:focus + .modal-icon {
     fill: #4d5ae5;
@@ -845,9 +860,36 @@ letter-spacing: 0.04em;
 
 
 }
+.modal-input {
+    border: 1px solid var(--iris);
+border-radius: 4px;
+width: 360px;
+height: 40px;
+padding-left: 24px;
+padding-right: 24px;
+box-sizing: border-box;
+}
+.modal-input-wrapper {
+    position: relative;
+}
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
     background-color: #404bbf;
+}
+.modal-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.modal-textarea {
+    border: 1px solid var(--navy-blue-modal);
+border-radius: 4px;
+width: 360px;
+height: 120px;
+padding-left: 24px;
+padding-right: 24px;
+resize: none;
 }
 .visually-hidden {
     position: absolute;
