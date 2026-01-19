@@ -666,14 +666,19 @@ color: var(--white);
     align-items: center;
 }
 .footer-subscribe-input {
-    flex: 1;
     height: 40px;
-    max-width: 264px;
+    width: 264px;
     border: 1px solid var(--white);
-border-radius: 4px;
-width: 264px;
-height: 40px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding: 8px 16px;
+    background-color: transparent;
+    color: var(--white);
+}
+
+.footer-subscribe-input::placeholder {
+    color: var(--white);
+    opacity: 0.6;
 }
 .footer-submit-btn {
     display: flex;
