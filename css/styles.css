@@ -569,9 +569,9 @@ margin: 0;
 }
 .footer-container {
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
     gap: 120px;
-    justify-content:space-between;
+    justify-content: flex-start;
     margin: 0 auto;
     
 }
@@ -610,6 +610,7 @@ color: var(--white);
     gap:16px;
     display: flex;
     flex-direction: column;
+    margin-right: 80px;
 }
 .footer .logo {
     display:inline-block;
@@ -659,6 +660,9 @@ color: var(--white);
 .footer-subscribe-form {
     display: flex;
     gap:24px;
+}
+.footer-subscribe-title {
+   margin-bottom: 16px;
 }
 .footer-subscribe-input {
     flex: 1;
