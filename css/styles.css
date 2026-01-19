@@ -656,6 +656,7 @@ color: var(--white);
     gap: 16px;
     margin-top: 100px;
     margin-left: 80px;
+    justify-content: flex-start;
 }
 .footer-subscribe-form {
     display: flex;
