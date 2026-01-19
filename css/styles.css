@@ -666,9 +666,7 @@ color: var(--white);
     align-items: center;
     margin-left: 80px;
 }
-.footer-subscribe-title{
-     margin-left: 80px;
-}
+
 .footer-subscribe-input {
     height: 40px;
     width: 264px;
@@ -678,7 +676,6 @@ color: var(--white);
     padding: 8px 16px;
     background-color: transparent;
     color: var(--white);
-    margin-left: 80px;
 }
 
 .footer-subscribe-input::placeholder {
