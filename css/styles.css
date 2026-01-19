@@ -662,7 +662,7 @@ color: var(--white);
 }
 .footer-subscribe-form {
     display: flex;
-    gap:24px;
+    gap: 8px;
     align-items: center;
 }
 .footer-subscribe-input {
