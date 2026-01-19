@@ -657,7 +657,7 @@ color: var(--white);
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-left: auto;
+    margin-left: 80px;
     justify-content: flex-start;
 }
 .footer-subscribe-form {
