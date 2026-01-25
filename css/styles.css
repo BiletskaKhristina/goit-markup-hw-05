@@ -573,7 +573,7 @@ margin: 0;
     justify-content: flex-start;
     margin: 0 auto;
     flex-wrap: nowrap;
-    column-gap: 120px;
+    gap: 80px;
     
 }
 .footer-social-list {
@@ -658,7 +658,7 @@ color: var(--white);
     flex-direction: column;
     gap: 16px;
     justify-content: flex-start;
-    margin-left: auto;
+   
 }
 .footer-subscribe-form {
     display: flex;
